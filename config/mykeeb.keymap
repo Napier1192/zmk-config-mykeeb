@@ -14,8 +14,7 @@
             // | CAPS   |   A   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |
             // |   L    |   ;   | '/"   |LSHIFT |   Z   |   X   |   C   |   V   |   B   |
             // |   N    |   M   |   ,   |   .   |   /   |RSHIFT |   ~   | :/\   |  LA   |
-            // |  RA    |   [   |   ]   |  BS   |  DEL  |  End  | HOME  | ALT   | CTRL  |
-            // | CTRL   |  Win  | PgUp  | PgDn  | Enter | Space |
+            // |  RA    |   [   |   ]   |  BS   |  DEL  |  End  | HOME  | ALT   | 
 
             bindings = <
                 &kp ESC     &kp F1      &kp F2     &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8
