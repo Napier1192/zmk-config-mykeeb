@@ -1,29 +1,33 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
+            // ---------------------------------------------------------------------------------------
+            // |  Esc   |  F1   |  F2   |  F3   |  F4   |  F5   |  F6   |  F7   |  F8   |
+            // |  F9    |  F10  | RST   |  +/=  |   1   |   2   |   3   |   4   |   5   |
+            // |   6    |   7   |   8   |   9   |   0   | -/_   |  TAB  |   Q   |   W   |
+            // |   E    |   R   |   T   |   Y   |   U   |   I   |   O   |   P   | :/\   |
+            // | CAPS   |   A   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |
+            // |   L    |   ;   | '/"   |LSHIFT |   Z   |   X   |   C   |   V   |   B   |
+            // |   N    |   M   |   ,   |   .   |   /   |RSHIFT |   ~   | :/\   |  LA   |
+            // |  RA    |   [   |   ]   |  BS   |  DEL  |  End  | HOME  | ALT   | CTRL  |
+            // | CTRL   |  Win  | PgUp  | PgDn  | Enter | Space |
+
             bindings = <
-                &bt BT_SEL 0  &bt BT_CLR         &kp E         &kp R         &kp T         &kp Y         &kp U         &kp I         &kp O
-                &kp A         &kp S         &kp D         &kp F         &kp G         &kp H         &kp J         &kp K         &kp L
-                &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp DOT
-                &kp TAB       &kp ESC       &kp SPACE     &kp ENTER     &kp BSPC      &kp DEL       &kp MINUS     &kp EQUAL     &kp LBKT
-                &kp RBKT      &kp SQT       &kp DQT       &kp GRAVE     &kp SEMI      &kp SLASH     &kp BACKSLASH &kp UP        &kp DOWN
-                &kp LEFT      &kp RIGHT     &kp CAPS      &kp LCTL      &kp LALT      &kp LSHFT     &kp RCTL      &kp RALT      &kp RSHFT
-                &kp 1         &kp 2         &kp 3         &kp 4         &kp 5         &kp 6         &kp 7         &kp 8         &kp 9
-                &kp 0         &kp INS       &kp HOME      &kp PG_UP     &kp END       &kp PG_DN     &mo 1
+                &kp ESC     &kp F1      &kp F2     &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8
+                &kp F9      &kp F10     &bootloader &kp EQUAL  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5
+                &kp N6      &kp N7      &kp N8     &kp N9     &kp N0     &kp MINUS  &kp TAB    &kp Q      &kp W
+                &kp E       &kp R       &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
+                &kp CAPS    &kp A       &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K
+                &kp L       &kp SEMI    &kp APOS   &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B
+                &kp N       &kp M       &kp COMMA  &kp DOT    &kp SLASH  &kp RSHFT  &kp GRAVE  &kp BSLH   &kp LEFT
+                &kp RIGHT   &kp LBKT    &kp RBKT   &kp BSPC   &kp DEL    &kp END    &kp HOME   &kp LALT   
             >;
+
         };
-        
     };
 };
