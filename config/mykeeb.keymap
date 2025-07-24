@@ -22,7 +22,7 @@
     &kp CAPS      &kp A     &kp N3     &kp N4     &kp T     &kp U     &kp K     &kp L     &kp SEMI
     &kp LSHFT   &kp Z     &kp E     &kp R     &kp Y     &kp I     &kp COMMA     &kp DOT     &kp APOS
     &kp LCTRL      &kp X  &kp D  &kp F &kp H     &kp J     &kp BSLH     &kp SLASH     &kp EQUAL
-    &kp N      &kp M     &kp COMMA &kp DOT   &kp N &kp M &kp UP &kp ENTER  &kp BSPC
+    &kp N      &kp S     &kp G &kp DOT   &kp N &kp M &kp UP &kp ENTER  &kp BSPC
     &kp LALT  &kp W  &kp V  &kp B  &kp SPACE   &kp LEFT   &kp DOWN  &kp RIGHT  &kp LCTRL
     &kp LCTRL  &kp LCMD  &kp S &kp C &kp ENTER &kp C &kp LCMD
 >;
