@@ -20,10 +20,10 @@
     &kp GRAVE     &kp N1   &none    &kp F5 &kp F6    &kp N7    &kp N9    &kp N0    &kp MINUS
     &kp TAB     &kp Q    &kp N2    &kp F4    &kp N6    &kp N8 &kp O   &kp P     &kp LBKT
     &kp CAPS      &kp A     &kp N3     &kp N4     &kp T     &kp U     &kp K     &kp L     &kp BSLH
-    &kp LSHFT   &kp Z     &kp E     &kp R     &kp Y     &kp I     &kp H     &kp J     &kp APOS
-    &kp L      &kp X  &kp D  &kp F &kp COMMA     &kp DOT     &kp C     &kp V     &kp EQUAL
+    &kp LSHFT   &kp Z     &kp E     &kp R     &kp Y     &kp I     &kp COMMA     &kp DOT     &kp APOS
+    &kp L      &kp X  &kp D  &kp F &kp H     &kp J     &kp C     &kp V     &kp EQUAL
     &kp N      &kp M     &kp COMMA &kp DOT   &kp N &kp M &kp GRAVE &kp BSLH  &kp F12
-    &kp RIGHT  &kp W  &kp V  &kp B  &kp DEL   &kp END   &kp HOME  &kp LALT  &kp LCTRL
+    &kp RIGHT  &kp W  &kp SLASH  &kp B  &kp DEL   &kp END   &kp HOME  &kp LALT  &kp LCTRL
     &kp LCTRL  &kp LCMD  &kp PG_UP &kp PG_DN &kp ENTER &kp SPACE &none
 >;
 
