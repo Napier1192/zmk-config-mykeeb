@@ -17,10 +17,10 @@
 
            bindings = <
     &kp ESC    &kp F1    &kp F3    &kp N5    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-    &kp GRAVE     &kp N1   &none    &kp F5 &kp F6    &kp N2    &kp N9    &kp N0    &kp MINUS
-    &kp TAB     &kp N2    &kp Q    &kp F4    &kp N6    &kp N8 &kp T   &kp U     &kp W
-    &kp P      &kp LBKT     &kp N3     &kp N4     &kp R     &kp Y     &kp O     &kp G     &kp BSLH
-    &kp CAPS   &kp A     &kp E     &kp R     &kp Y     &kp U     &kp H     &kp J     &kp K
+    &kp GRAVE     &kp N1   &none    &kp F5 &kp F6    &kp Q    &kp N9    &kp N0    &kp MINUS
+    &kp TAB     &kp N7    &kp N2    &kp F4    &kp N6    &kp N8 &kp T   &kp I     &kp LBKT
+    &kp P      &kp LBKT     &kp N3     &kp N4     &kp O     &kp U     &kp O     &kp G     &kp BSLH
+    &kp CAPS   &kp A     &kp E     &kp R     &kp Y     &kp P     &kp H     &kp J     &kp K
     &kp L      &kp SEMI  &kp APOS  &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp EQUAL
     &kp N      &kp M     &kp COMMA &kp DOT   &kp SLASH &kp RSHFT &kp GRAVE &kp BSLH  &kp F12
     &kp RIGHT  &kp W  &kp RBKT  &kp BSPC  &kp DEL   &kp END   &kp HOME  &kp LALT  &kp LCTRL
