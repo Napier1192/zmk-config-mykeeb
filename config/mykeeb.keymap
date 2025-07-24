@@ -16,12 +16,12 @@
 // |  BS    |  DEL  |  End  | HOME  |  ALT  |  CTRL |  CTRL |  Win  | PgUp  |  PgDn | Enter  | Space  |
 
            bindings = <
-    &kp ESC    &kp F1    &kp F3    &kp F3    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-    &kp GRAVE     &kp N1   &none    &kp F5 &kp F6    &kp N2    &kp N3    &kp N4    &kp N5
-    &kp N6     &kp N7    &kp N2    &kp F4    &kp N0    &kp MINUS &kp TAB   &kp Q     &kp W
+    &kp ESC    &kp F1    &kp F3    &kp N5    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
+    &kp GRAVE     &kp N1   &none    &kp F5 &kp F6    &kp N2    &kp N9    &kp N0    &kp MINUS
+    &kp N6     &kp N7    &kp N7    &kp F4    &kp N6    &kp N8 &kp TAB   &kp Q     &kp W
     &kp E      &kp R     &kp N3     &kp N4     &kp U     &kp I     &kp O     &kp P     &kp BSLH
     &kp CAPS   &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K
-    &kp L      &kp SEMI  &kp APOS  &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B
+    &kp L      &kp SEMI  &kp APOS  &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp EQUAL
     &kp N      &kp M     &kp COMMA &kp DOT   &kp SLASH &kp RSHFT &kp GRAVE &kp BSLH  &kp F12
     &kp RIGHT  &kp LBKT  &kp RBKT  &kp BSPC  &kp DEL   &kp END   &kp HOME  &kp LALT  &kp LCTRL
     &kp LCTRL  &kp LCMD  &kp PG_UP &kp PG_DN &kp ENTER &kp SPACE &none
