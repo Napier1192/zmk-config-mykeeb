@@ -18,7 +18,7 @@
 // |  BS    |  DEL  |  End  | HOME  |  ALT  |  CTRL |  CTRL |  Win  | PgUp  |  PgDn | Enter  | Space  |
 
            bindings = <
-    &kp ESC    &kp F1   &kp F3    &kp N5    &kp C_BRI_UP    &kp RBKT    &kp C_MUTE    &kp C_VOL_DN   &kp C_VOL_UP
+    &kp ESC    &mo 1   &kp F3    &kp N5    &kp C_BRI_UP    &kp RBKT    &kp C_MUTE    &kp C_VOL_DN   &kp C_VOL_UP
     &kp GRAVE     &kp N1   &kp F2   &kp C_PLAY &kp C_BRI_DN    &kp N7    &kp N9    &kp N0    &kp MINUS
     &kp TAB     &kp Q    &kp N2    &kp F4    &kp N6    &kp N8 &kp O   &kp P     &kp LBKT
     &kp CAPS      &kp A     &kp N3     &kp N4     &kp T     &kp U     &kp K     &kp L     &kp SEMI
@@ -31,5 +31,20 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
+     bt_layer {
+         bindings = <
+    &none    &none   &none   &none    &none   &none    &none    &none  &none
+    &none    &none   &bt BT_CLR   &bt BT_SEL 1 &bt BT_SEL 2    &none    &none    &none    &none
+    &none     &none    &none    &bt BT_SEL 0    &none    &none &none   &none     &none
+    &none      &none     &none     &none     &none     &none    &none    &none     &none
+    &none   &none    &none     &none     &none     &none     &none     &none    &none
+    &none      &none  &none  &none &none     &none     &none     &none     &none
+    &none      &none     &none &none   &none &none &none &none  &none
+    &none  &none  &none  &none  &none   &none   &none  &none  &none
+    &none  &none  &none &none &none &none &none
+
+
+          >;
+       };
     };
 };
