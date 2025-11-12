@@ -1,4 +1,29 @@
 if SHIELD_MYKEEB
 config ZMK_KEYBOARD_NAME
-   default "mykeeb"
+    default "mykeeb"
+
+# --- Enable Bluetooth ---
+config ZMK_BLE
+    default y
+config BT
+    default y
+config BT_PERIPHERAL
+    default y
+config BT_DEVICE_NAME
+    default "mykeeb"
+config BT_DEVICE_APPEARANCE
+    default 961
+config BT_MAX_PAIRED
+    default 5
+config BT_BONDABLE
+    default y
+config BT_BONDING_REQUIRED
+    default y
+
+# --- Power saving ---
+config ZMK_SLEEP
+    default y
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 900000
+
 endif
